@@ -1,0 +1,33 @@
+{
+  "name": "nasdaq-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perajit/nasdaq-scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perajit/nasdaq-scrape/issues"
+  },
+  "homepage": "https://github.com/Perajit/nasdaq-scrape#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "cheerio": "^0.22.0",
+    "cors": "^2.8.1",
+    "cron": "^1.2.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1",
+    "phantom": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
