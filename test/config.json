@@ -1,5 +1,5 @@
 {
   "SCRAPE_TARGET": "./fixtures/target.html",
-  "MONGO_URI": "mongodb://localhost:27017/web_scrape_test",
+  "MONGO_URI": "mongodb://localhost:27017/nasdaq_scrape_test",
   "API_DEFAULT_PORT": "6666"
 }
