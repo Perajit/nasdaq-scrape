@@ -1,7 +1,7 @@
 var cron = require('cron');
 var CronJob = require('cron').CronJob;
 var mongoose = require('mongoose');
-var scraper = require('./background.scraper');
+var scraper = require('./scraper');
 
 var background = function(config) {
   var job = new CronJob({
@@ -14,6 +14,8 @@ var background = function(config) {
   });
 
   job.start();
+
+  return job;
 };
 
 module.exports = background;

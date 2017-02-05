@@ -1,9 +1,14 @@
 var config = require('./app/config');
-var mongoose = require('mongoose');
-var apiProcess = require('./app/api/api.process');
-var backgroundProcess = require('./app/background/background.process');
+var apiProcess = require('./app/api/index');
+var backgroundProcess = require('./app/background/index');
 
+var mongoose = require('mongoose');
 mongoose.connect(config.MONGO_URI);
 
-apiProcess(config);
-backgroundProcess(config);
+var app = apiProcess(config);
+var job = backgroundProcess(config);
+var port = process.env.PORT || config.API_DEFAULT_PORT;
+
+app.listen(port, function () {
+  console.log('***** Statred server on port ' + port);
+});

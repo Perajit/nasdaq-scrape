@@ -1,6 +1,6 @@
 var phantom = require('phantom');
 var cheerio = require('cheerio');
-var nasdaqIndexService = require('../services/nasdaqIndex.service');
+var nasdaqIndexService = require('../services/nasdaqIndex');
 
 function scrape(target) {
   getRenderedContent(target)

@@ -1,9 +1,11 @@
-var NasdaqIndexModel = require('../models/nasdaqIndex.model');
+var NasdaqIndexModel = require('../models/nasdaqIndex');
 
 function getDataByTimeRange(indexName, startDateTime, endDateTime) {
-  var criteria = {
-    indexName: indexName
-  };
+  var criteria = {};
+
+  if (indexName) {
+    criteria.indexName = indexName;
+  }
 
   if (startDateTime && endDateTime) {
     criteria.dateTime = {
