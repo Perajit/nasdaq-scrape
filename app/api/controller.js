@@ -1,7 +1,7 @@
 var nasdaqIndexService = require('../services/nasdaqIndex');
 
 function getIndexDataByTimeRange(req, res, next) {
-  var indexName = req.params.index;
+  var indexName = req.params.index || null;
   var startParam = req.query.start;
   var endParam = req.query.end;
   var startDateTime = new Date(startParam);
