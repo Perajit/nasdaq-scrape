@@ -41,7 +41,6 @@ function getRenderedContent(target) {
 function extractData(content) {
   var $ = cheerio.load(content);
   var indexRows = $('#indexTable tbody tr');
-  var currentDateTime = new Date();
   var data = [];
 
   indexRows.each(function (i, row) {
@@ -57,7 +56,6 @@ function extractData(content) {
 
     data.push({
       indexName: indexName,
-      dateTime: currentDateTime,
       value: isNaN(value) ? null : value,
       netChange: isNaN(netChange) ? null : netChange,
       pctChange: isNaN(pctChange) ? null : pctChange,
