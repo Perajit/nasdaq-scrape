@@ -1,317 +1,317 @@
 [
   {
-    "_id": "5896fba72d6b0a2588c4cfc4",
+    "_id": "5897a47677d38e01545016b7",
     "__v": 0,
     "indexName": "NASDAQ",
     "value": 5666.77,
     "netChange": 30.57,
     "pctChange": 0.54,
-    "dateTime": "2017-02-05T10:17:11.845Z"
+    "dateTime": "2017-02-05T22:17:26.651Z"
   },
   {
-    "_id": "5896fba72d6b0a2588c4cfc5",
+    "_id": "5897a47677d38e01545016b8",
     "__v": 0,
     "indexName": "NASDAQ-100 (NDX)",
     "value": 5161.6,
     "netChange": 13.9,
     "pctChange": 0.27,
-    "dateTime": "2017-02-05T10:17:11.845Z"
+    "dateTime": "2017-02-05T22:17:26.661Z"
   },
   {
-    "_id": "5896fba72d6b0a2588c4cfc6",
+    "_id": "5897a47677d38e01545016b9",
     "__v": 0,
     "indexName": "Pre-Market (NDX)",
     "value": 5145.69,
     "netChange": -2.01,
-    "pctChange": 0.04,
-    "dateTime": "2017-02-05T10:17:11.845Z"
+    "pctChange": -0.04,
+    "dateTime": "2017-02-05T22:17:26.661Z"
   },
   {
-    "_id": "5896fba72d6b0a2588c4cfc7",
+    "_id": "5897a47677d38e01545016ba",
     "__v": 0,
     "indexName": "After Hours (NDX)",
     "value": 5160.25,
     "netChange": -1.35,
-    "pctChange": 0.03,
-    "dateTime": "2017-02-05T10:17:11.845Z"
+    "pctChange": -0.03,
+    "dateTime": "2017-02-05T22:17:26.661Z"
   },
   {
-    "_id": "5896fba72d6b0a2588c4cfc8",
+    "_id": "5897a47677d38e01545016bb",
     "__v": 0,
     "indexName": "DJIA",
     "value": 20071.46,
     "netChange": 186.55,
     "pctChange": 0.94,
-    "dateTime": "2017-02-05T10:17:11.845Z"
+    "dateTime": "2017-02-05T22:17:26.661Z"
   },
   {
-    "_id": "5896fba72d6b0a2588c4cfc9",
+    "_id": "5897a47677d38e01545016bc",
     "__v": 0,
     "indexName": "S&P 500",
     "value": 2297.42,
     "netChange": 16.57,
     "pctChange": 0.73,
-    "dateTime": "2017-02-05T10:17:11.845Z"
+    "dateTime": "2017-02-05T22:17:26.661Z"
   },
   {
-    "_id": "5896fba72d6b0a2588c4cfca",
+    "_id": "5897a47677d38e01545016bd",
     "__v": 0,
     "indexName": "Russell 2000",
     "value": 1377.84,
     "netChange": 20.41,
     "pctChange": 1.5,
-    "dateTime": "2017-02-05T10:17:11.845Z"
+    "dateTime": "2017-02-05T22:17:26.662Z"
   },
   {
-    "_id": "5896fbe32d6b0a2588c4cfcb",
+    "_id": "5897a48277d38e01545016be",
     "__v": 0,
     "indexName": "NASDAQ",
     "value": 5666.77,
     "netChange": 30.57,
     "pctChange": 0.54,
-    "dateTime": "2017-02-05T10:18:11.765Z"
+    "dateTime": "2017-02-05T22:17:38.775Z"
   },
   {
-    "_id": "5896fbe32d6b0a2588c4cfcc",
+    "_id": "5897a48277d38e01545016bf",
     "__v": 0,
     "indexName": "NASDAQ-100 (NDX)",
     "value": 5161.6,
     "netChange": 13.9,
     "pctChange": 0.27,
-    "dateTime": "2017-02-05T10:18:11.765Z"
+    "dateTime": "2017-02-05T22:17:38.775Z"
   },
   {
-    "_id": "5896fbe32d6b0a2588c4cfcd",
+    "_id": "5897a48277d38e01545016c0",
     "__v": 0,
     "indexName": "Pre-Market (NDX)",
     "value": 5145.69,
     "netChange": -2.01,
-    "pctChange": 0.04,
-    "dateTime": "2017-02-05T10:18:11.765Z"
+    "pctChange": -0.04,
+    "dateTime": "2017-02-05T22:17:38.775Z"
   },
   {
-    "_id": "5896fbe32d6b0a2588c4cfce",
+    "_id": "5897a48277d38e01545016c1",
     "__v": 0,
     "indexName": "After Hours (NDX)",
     "value": 5160.25,
     "netChange": -1.35,
-    "pctChange": 0.03,
-    "dateTime": "2017-02-05T10:18:11.765Z"
+    "pctChange": -0.03,
+    "dateTime": "2017-02-05T22:17:38.776Z"
   },
   {
-    "_id": "5896fbe32d6b0a2588c4cfcf",
+    "_id": "5897a48277d38e01545016c2",
     "__v": 0,
     "indexName": "DJIA",
     "value": 20071.46,
     "netChange": 186.55,
     "pctChange": 0.94,
-    "dateTime": "2017-02-05T10:18:11.765Z"
+    "dateTime": "2017-02-05T22:17:38.776Z"
   },
   {
-    "_id": "5896fbe32d6b0a2588c4cfd0",
+    "_id": "5897a48277d38e01545016c3",
     "__v": 0,
     "indexName": "S&P 500",
     "value": 2297.42,
     "netChange": 16.57,
     "pctChange": 0.73,
-    "dateTime": "2017-02-05T10:18:11.765Z"
+    "dateTime": "2017-02-05T22:17:38.776Z"
   },
   {
-    "_id": "5896fbe32d6b0a2588c4cfd1",
+    "_id": "5897a48277d38e01545016c4",
     "__v": 0,
     "indexName": "Russell 2000",
     "value": 1377.84,
     "netChange": 20.41,
     "pctChange": 1.5,
-    "dateTime": "2017-02-05T10:18:11.765Z"
+    "dateTime": "2017-02-05T22:17:38.776Z"
   },
   {
-    "_id": "5896fc202d6b0a2588c4cfd2",
+    "_id": "5897a4a277d38e01545016c5",
     "__v": 0,
     "indexName": "NASDAQ",
     "value": 5666.77,
     "netChange": 30.57,
     "pctChange": 0.54,
-    "dateTime": "2017-02-05T10:19:12.703Z"
+    "dateTime": "2017-02-05T22:18:10.790Z"
   },
   {
-    "_id": "5896fc202d6b0a2588c4cfd3",
+    "_id": "5897a4a277d38e01545016c6",
     "__v": 0,
     "indexName": "NASDAQ-100 (NDX)",
     "value": 5161.6,
     "netChange": 13.9,
     "pctChange": 0.27,
-    "dateTime": "2017-02-05T10:19:12.703Z"
+    "dateTime": "2017-02-05T22:18:10.791Z"
   },
   {
-    "_id": "5896fc202d6b0a2588c4cfd4",
+    "_id": "5897a4a277d38e01545016c7",
     "__v": 0,
     "indexName": "Pre-Market (NDX)",
     "value": 5145.69,
     "netChange": -2.01,
-    "pctChange": 0.04,
-    "dateTime": "2017-02-05T10:19:12.703Z"
+    "pctChange": -0.04,
+    "dateTime": "2017-02-05T22:18:10.791Z"
   },
   {
-    "_id": "5896fc202d6b0a2588c4cfd5",
+    "_id": "5897a4a277d38e01545016c8",
     "__v": 0,
     "indexName": "After Hours (NDX)",
     "value": 5160.25,
     "netChange": -1.35,
-    "pctChange": 0.03,
-    "dateTime": "2017-02-05T10:19:12.703Z"
+    "pctChange": -0.03,
+    "dateTime": "2017-02-05T22:18:10.791Z"
   },
   {
-    "_id": "5896fc202d6b0a2588c4cfd6",
+    "_id": "5897a4a277d38e01545016c9",
     "__v": 0,
     "indexName": "DJIA",
     "value": 20071.46,
     "netChange": 186.55,
     "pctChange": 0.94,
-    "dateTime": "2017-02-05T10:19:12.703Z"
+    "dateTime": "2017-02-05T22:18:10.791Z"
   },
   {
-    "_id": "5896fc202d6b0a2588c4cfd7",
+    "_id": "5897a4a277d38e01545016ca",
     "__v": 0,
     "indexName": "S&P 500",
     "value": 2297.42,
     "netChange": 16.57,
     "pctChange": 0.73,
-    "dateTime": "2017-02-05T10:19:12.703Z"
+    "dateTime": "2017-02-05T22:18:10.791Z"
   },
   {
-    "_id": "5896fc202d6b0a2588c4cfd8",
+    "_id": "5897a4a277d38e01545016cb",
     "__v": 0,
     "indexName": "Russell 2000",
     "value": 1377.84,
     "netChange": 20.41,
     "pctChange": 1.5,
-    "dateTime": "2017-02-05T10:19:12.703Z"
+    "dateTime": "2017-02-05T22:18:10.791Z"
   },
   {
-    "_id": "5896fc5b2d6b0a2588c4cfd9",
+    "_id": "5897a4dd77d38e01545016cc",
     "__v": 0,
     "indexName": "NASDAQ",
     "value": 5666.77,
     "netChange": 30.57,
     "pctChange": 0.54,
-    "dateTime": "2017-02-05T10:20:11.238Z"
+    "dateTime": "2017-02-05T22:19:09.327Z"
   },
   {
-    "_id": "5896fc5b2d6b0a2588c4cfda",
+    "_id": "5897a4dd77d38e01545016cd",
     "__v": 0,
     "indexName": "NASDAQ-100 (NDX)",
     "value": 5161.6,
     "netChange": 13.9,
     "pctChange": 0.27,
-    "dateTime": "2017-02-05T10:20:11.238Z"
+    "dateTime": "2017-02-05T22:19:09.327Z"
   },
   {
-    "_id": "5896fc5b2d6b0a2588c4cfdb",
+    "_id": "5897a4dd77d38e01545016ce",
     "__v": 0,
     "indexName": "Pre-Market (NDX)",
     "value": 5145.69,
     "netChange": -2.01,
-    "pctChange": 0.04,
-    "dateTime": "2017-02-05T10:20:11.238Z"
+    "pctChange": -0.04,
+    "dateTime": "2017-02-05T22:19:09.328Z"
   },
   {
-    "_id": "5896fc5b2d6b0a2588c4cfdc",
+    "_id": "5897a4dd77d38e01545016cf",
     "__v": 0,
     "indexName": "After Hours (NDX)",
     "value": 5160.25,
     "netChange": -1.35,
-    "pctChange": 0.03,
-    "dateTime": "2017-02-05T10:20:11.238Z"
+    "pctChange": -0.03,
+    "dateTime": "2017-02-05T22:19:09.328Z"
   },
   {
-    "_id": "5896fc5b2d6b0a2588c4cfdd",
+    "_id": "5897a4dd77d38e01545016d0",
     "__v": 0,
     "indexName": "DJIA",
     "value": 20071.46,
     "netChange": 186.55,
     "pctChange": 0.94,
-    "dateTime": "2017-02-05T10:20:11.238Z"
+    "dateTime": "2017-02-05T22:19:09.328Z"
   },
   {
-    "_id": "5896fc5b2d6b0a2588c4cfde",
+    "_id": "5897a4dd77d38e01545016d1",
     "__v": 0,
     "indexName": "S&P 500",
     "value": 2297.42,
     "netChange": 16.57,
     "pctChange": 0.73,
-    "dateTime": "2017-02-05T10:20:11.238Z"
+    "dateTime": "2017-02-05T22:19:09.328Z"
   },
   {
-    "_id": "5896fc5b2d6b0a2588c4cfdf",
+    "_id": "5897a4dd77d38e01545016d2",
     "__v": 0,
     "indexName": "Russell 2000",
     "value": 1377.84,
     "netChange": 20.41,
     "pctChange": 1.5,
-    "dateTime": "2017-02-05T10:20:11.238Z"
+    "dateTime": "2017-02-05T22:19:09.328Z"
   },
   {
-    "_id": "5896fc992d6b0a2588c4cfe0",
+    "_id": "5897a51b77d38e01545016d3",
     "__v": 0,
     "indexName": "NASDAQ",
     "value": 5666.77,
     "netChange": 30.57,
     "pctChange": 0.54,
-    "dateTime": "2017-02-05T10:21:13.399Z"
+    "dateTime": "2017-02-05T22:20:11.043Z"
   },
   {
-    "_id": "5896fc992d6b0a2588c4cfe1",
+    "_id": "5897a51b77d38e01545016d4",
     "__v": 0,
     "indexName": "NASDAQ-100 (NDX)",
     "value": 5161.6,
     "netChange": 13.9,
     "pctChange": 0.27,
-    "dateTime": "2017-02-05T10:21:13.399Z"
+    "dateTime": "2017-02-05T22:20:11.044Z"
   },
   {
-    "_id": "5896fc992d6b0a2588c4cfe2",
+    "_id": "5897a51b77d38e01545016d5",
     "__v": 0,
     "indexName": "Pre-Market (NDX)",
     "value": 5145.69,
     "netChange": -2.01,
-    "pctChange": 0.04,
-    "dateTime": "2017-02-05T10:21:13.399Z"
+    "pctChange": -0.04,
+    "dateTime": "2017-02-05T22:20:11.045Z"
   },
   {
-    "_id": "5896fc992d6b0a2588c4cfe3",
+    "_id": "5897a51b77d38e01545016d6",
     "__v": 0,
     "indexName": "After Hours (NDX)",
     "value": 5160.25,
     "netChange": -1.35,
-    "pctChange": 0.03,
-    "dateTime": "2017-02-05T10:21:13.399Z"
+    "pctChange": -0.03,
+    "dateTime": "2017-02-05T22:20:11.045Z"
   },
   {
-    "_id": "5896fc992d6b0a2588c4cfe4",
+    "_id": "5897a51b77d38e01545016d7",
     "__v": 0,
     "indexName": "DJIA",
     "value": 20071.46,
     "netChange": 186.55,
     "pctChange": 0.94,
-    "dateTime": "2017-02-05T10:21:13.399Z"
+    "dateTime": "2017-02-05T22:20:11.046Z"
   },
   {
-    "_id": "5896fc992d6b0a2588c4cfe5",
+    "_id": "5897a51b77d38e01545016d8",
     "__v": 0,
     "indexName": "S&P 500",
     "value": 2297.42,
     "netChange": 16.57,
     "pctChange": 0.73,
-    "dateTime": "2017-02-05T10:21:13.399Z"
+    "dateTime": "2017-02-05T22:20:11.046Z"
   },
   {
-    "_id": "5896fc992d6b0a2588c4cfe6",
+    "_id": "5897a51b77d38e01545016d9",
     "__v": 0,
     "indexName": "Russell 2000",
     "value": 1377.84,
     "netChange": 20.41,
     "pctChange": 1.5,
-    "dateTime": "2017-02-05T10:21:13.399Z"
+    "dateTime": "2017-02-05T22:20:11.046Z"
   }
 ]

@@ -6,8 +6,8 @@ var nasaqIndexService = require('../../app/services/nasdaqIndex');
 var targetData = require('../fixtures/target');
 
 describe('NasdaqInex service', function() {
-  var start = '2017-02-05T10:19:12.703Z';
-  var end = '2017-02-05T10:20:11.238Z';
+  var start = '2017-02-05T22:17:38.775Z';
+  var end = '2017-02-05T22:19:09.327Z';
 
   describe('insertMultipleData', function() {
     before(function(done) {
