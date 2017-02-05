@@ -52,6 +52,9 @@ function extractData(content) {
     var netChange = parseFloat(changes[0]);
     var pctChange = parseFloat(changes[1]);
 
+    netChange = isNaN(netChange) ? null : netChange;
+    pctChange = isNaN(pctChange) ? null : pctChange * (netChange < 0 ? -1 : 1);
+
     data.push({
       indexName: indexName,
       dateTime: currentDateTime,
