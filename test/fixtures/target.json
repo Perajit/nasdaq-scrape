@@ -1,44 +1,44 @@
 [
   {
     "indexName": "NASDAQ",
-    "value": 5657.09,
-    "netChange": 0.75,
-    "pctChange": 0.01
+    "value": 5666.77,
+    "netChange": 30.57,
+    "pctChange": 0.54
   },
   {
     "indexName": "NASDAQ-100 (NDX)",
-    "value": 5159.72,
-    "netChange": 8.25,
-    "pctChange": 0.16
+    "value": 5161.60,
+    "netChange": 13.9,
+    "pctChange": 0.27
   },
   {
     "indexName": "Pre-Market (NDX)",
-    "value": 5160.99,
-    "netChange": 9.52,
-    "pctChange": 0.18
+    "value": 5145.69,
+    "netChange": -2.01,
+    "pctChange": -0.04
   },
   {
     "indexName": "After Hours (NDX)",
-    "value": 5151.85,
-    "netChange": 8.38,
-    "pctChange": 0.01
+    "value": 5160.25,
+    "netChange": -1.35,
+    "pctChange": -0.03
   },
   {
     "indexName": "DJIA",
-    "value":  20094.56,
-    "netChange": 26.05,
-    "pctChange": 0.13
+    "value":  20071.46,
+    "netChange": 186.55,
+    "pctChange": 0.94
   },
   {
     "indexName": "S&P 500",
-    "value": 2296.68,
-    "netChange": -1.69,
-    "pctChange": -0.07
+    "value": 2297.42,
+    "netChange": 16.57,
+    "pctChange": 0.73
   },
   {
     "indexName": "Russell 2000",
-    "value":  1375.51,
-    "netChange": -6.93,
-    "pctChange": 0.50
+    "value":  1377.84,
+    "netChange": 20.41,
+    "pctChange": 1.50
   }
 ]
