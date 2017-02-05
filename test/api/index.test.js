@@ -43,7 +43,7 @@ var test = function(config) {
       });
     });
 
-    it('return all data of all index', function(done) {
+    it('should return all data of all index', function(done) {
       var url = 'http://localhost:' + port + '/api/nasdaq/all';
 
       request(url,
@@ -57,7 +57,7 @@ var test = function(config) {
         });
     });
 
-    it('return data of all index from starting time to ending time', function(done) {
+    it('should return data of all index from starting time to ending time', function(done) {
       var url = 'http://localhost:' + port + '/api/nasdaq/all?start=' + start + '&end=' + end;
 
       request(url,
@@ -71,7 +71,7 @@ var test = function(config) {
         });
     });
 
-    it('return all data of specified index', function(done) {
+    it('should return all data of specified index', function(done) {
       var url = 'http://localhost:' + port + '/api/nasdaq/NASDAQ';
 
       request(url,
@@ -85,7 +85,7 @@ var test = function(config) {
         });
     });
 
-    it('return data of specified index from starting time to ending time', function(done) {
+    it('should return data of specified index from starting time to ending time', function(done) {
       var url = 'http://localhost:' + port + '/api/nasdaq/NASDAQ?start=' + start + '&end=' + end;
 
       request(url,
