@@ -6,7 +6,6 @@ function scrape(target) {
   getRenderedContent(target)
     .then(function(content) {
       var data = extractData(content);
-      console.log(data);
       nasdaqIndexService.insertMultipleData(data);
     });
 }
@@ -66,5 +65,6 @@ function extractData(content) {
 }
 
 module.exports = {
-  scrape: scrape
+  scrape: scrape,
+  extractData: extractData
 };

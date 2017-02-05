@@ -5,3 +5,4 @@ mongoose.connect(config.MONGO_URI);
 
 require('./services/nasdaqIndex.test');
 require('./api/index.test')(config);
+require('./background/scraper.test');
