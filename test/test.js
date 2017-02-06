@@ -10,3 +10,4 @@ mongoose.connect(config.MONGO_URI);
 require('./services/nasdaqIndex.test');
 require('./background/controller.test');
 require('./api/index.test')(app, config.API_DEFAULT_PORT);
+require('./background/index')(job, config.SCRAPE_TARGET);
