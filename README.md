@@ -12,7 +12,7 @@ The url looks like:
 
 Where:
 - \[host] is the host on which the application runs.
-- \[port] is the port on which the application runs.
+- \[port] is the port on which the application runs. (Default is 5555).
 - \[index] is the index name you want to retrieve data. If you want to get data of all indexes, use 'all'.
 - \[start] is the starting time of interest in ISO format (optional).
 - \[end] is the ending time of intererst in ISO format (optional).
