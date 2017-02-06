@@ -1,14 +1,16 @@
 var config = require('./app/config');
-var apiProcess = require('./app/api/index');
-var backgroundProcess = require('./app/background/index');
+var app = require('./app/api/index')();
+var job = require('./app/background/index')(config);
 
+// Connect to database
 var mongoose = require('mongoose');
 mongoose.connect(config.MONGO_URI);
 
-var app = apiProcess(config);
-var job = backgroundProcess(config);
+// Start server for API
 var port = process.env.PORT || config.API_DEFAULT_PORT;
-
 app.listen(port, function () {
-  console.log('***** Statred server on port ' + port);
+  console.log('***** Started server on port ' + port);
 });
+
+// Start background scraping process
+job.start();

@@ -1,8 +1,8 @@
-describe('Background scraper', function() {
+describe('Background controller', function() {
   var expect  = require("chai").expect;
   var stub = require('sinon').stub;
   var nasaqIndexService = require('../../app/services/nasdaqIndex');
-  var scraper = require('../../app/background/scraper');
+  var controller = require('../../app/background/controller');
   var targetData = require('../fixtures/target');
   var targetPath = require('path').resolve(__dirname + '/../fixtures/target.html');
 
@@ -15,7 +15,7 @@ describe('Background scraper', function() {
       var insertMultipleData = stub(nasaqIndexService, 'insertMultipleData');
       insertMultipleData.onCall(0).resolves(targetData); // Just to force scraping completed
 
-      scraper.scrape('file:///' + targetPath)
+      controller.scrape('file:///' + targetPath)
         .then(function() {
           expect(insertMultipleData.calledWith(targetData)).to.be.true;
           done();

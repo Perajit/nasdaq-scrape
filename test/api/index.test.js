@@ -1,13 +1,15 @@
-var test = function(config) {
+var test = function(app, port) {
   describe('API', function() {
     var expect = require('chai').expect;
     var spy = require('sinon').spy;
-    var apiProcess = require('../../app/api/index');
-    var app = apiProcess(config);
-    var port = config.API_DEFAULT_PORT;
+    var request = require('request');
+    var loadFixture = require('mongoose-fixture-loader');
+    var NasaqIndexModel = require('../../app/models/nasdaqIndex');
+    var nasdaqIndexes = require('../fixtures/nasdaqIndexes');
+    var nasaqIndexService = require('../../app/services/nasdaqIndex');
 
     before(function(done) {
-      this.server = app.listen(port, function() {
+      this.server = app.listen(port, function () {
         done();
       });
     });
@@ -19,11 +21,6 @@ var test = function(config) {
     });
 
     describe('GET nasdaq/:index', function() {
-      var request = require('request');
-      var loadFixture = require('mongoose-fixture-loader');
-      var NasaqIndexModel = require('../../app/models/nasdaqIndex');
-      var nasdaqIndexes = require('../fixtures/nasdaqIndexes');
-      var nasaqIndexService = require('../../app/services/nasdaqIndex');
       var start = '2017-02-05T10:19:12.703Z';
       var end = '2017-02-05T10:20:11.238Z';
       var getDataByTimeRange;
