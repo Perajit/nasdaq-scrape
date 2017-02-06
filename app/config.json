@@ -1,5 +1,5 @@
 {
   "SCRAPE_TARGET": "http://www.nasdaq.com/",
-  "MONGO_URI": "mongodb://localhost:27017/nasdaq_scrape",
+  "MONGO_URI": "mongodb://localhost:27017/web_scrape",
   "API_DEFAULT_PORT": "5555"
 }

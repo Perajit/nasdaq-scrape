@@ -1,22 +1,26 @@
-var expect  = require("chai").expect;
-var scraper = require('../../app/background/scraper');
-var targetData = require('../fixtures/target');
-
 describe('Background scraper', function() {
-  var targetUrl = '../fixtures/target.html';
+  var expect  = require("chai").expect;
+  var stub = require('sinon').stub;
+  var nasaqIndexService = require('../../app/services/nasdaqIndex');
+  var scraper = require('../../app/background/scraper');
+  var targetData = require('../fixtures/target');
+  var targetPath = require('path').resolve(__dirname + '/../fixtures/target.html');
 
-  describe('extractData', function() {
-    it('should extract data from content correctly', function(done) {
-      var targetPath = require('path').resolve(__dirname + '/' + targetUrl);
-      require('fs').readFile(targetPath, 'utf-8', function(err, content) {
-        if (err) {
-          console.log(err);
-          return;
-        }
-        var actualData = scraper.extractData(content);
-        expect(actualData).to.eql(targetData);
-        done();
-      });
+  require('sinon-as-promised');
+
+  describe('scrape', function() {
+    it('should extract and save data correctly', function(done) {
+      this.timeout(5e4); // Extend timeout as scaping takes time
+
+      var insertMultipleData = stub(nasaqIndexService, 'insertMultipleData');
+      insertMultipleData.onCall(0).resolves(targetData); // Just to force scraping completed
+
+      scraper.scrape('file:///' + targetPath)
+        .then(function() {
+          expect(insertMultipleData.calledWith(targetData)).to.be.true;
+          done();
+        });
     });
   });
+
 });

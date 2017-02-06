@@ -3,10 +3,10 @@ var cheerio = require('cheerio');
 var nasdaqIndexService = require('../services/nasdaqIndex');
 
 function scrape(target) {
-  getRenderedContent(target)
+  return getRenderedContent(target)
     .then(function(content) {
       var data = extractData(content);
-      nasdaqIndexService.insertMultipleData(data);
+      return nasdaqIndexService.insertMultipleData(data);
     });
 }
 
@@ -15,7 +15,7 @@ function getRenderedContent(target) {
   var _page;
   var _outObj;
 
-  return phantom.create()
+  return phantom.create(['--ignore-ssl-errors=yes', '--load-images=no'])
     .then(function(ph) {
       _ph = ph;
       return _ph.createPage();
@@ -65,6 +65,5 @@ function extractData(content) {
 }
 
 module.exports = {
-  scrape: scrape,
-  extractData: extractData
+  scrape: scrape
 };

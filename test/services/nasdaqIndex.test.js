@@ -1,15 +1,14 @@
-var expect = require('chai').expect;
-var loadFixture = require('mongoose-fixture-loader');
-var NasaqIndexModel = require('../../app/models/nasdaqIndex');
-var nasdaqIndexes = require('../fixtures/nasdaqIndexes');
-var nasaqIndexService = require('../../app/services/nasdaqIndex');
-var targetData = require('../fixtures/target');
-
 describe('NasdaqInex service', function() {
-  var start = '2017-02-05T22:17:38.775Z';
-  var end = '2017-02-05T22:19:09.327Z';
+  var expect = require('chai').expect;
+  var loadFixture = require('mongoose-fixture-loader');
+  var NasaqIndexModel = require('../../app/models/nasdaqIndex');
+  var nasdaqIndexes = require('../fixtures/nasdaqIndexes');
+  var nasaqIndexService = require('../../app/services/nasdaqIndex');
 
-  describe('insertMultipleData', function() {
+  describe('getDataByTimeRange', function() {
+    var start = '2017-02-05T22:17:38.775Z';
+    var end = '2017-02-05T22:19:09.327Z';
+
     before(function(done) {
       loadFixture(NasaqIndexModel, nasdaqIndexes)
         .then(function() {
@@ -157,6 +156,8 @@ describe('NasdaqInex service', function() {
   });
 
   describe('insertMultipleData', function() {
+    var targetData = require('../fixtures/target');
+
     after(function(done) {
       NasaqIndexModel.remove({})
         .then(function() {
