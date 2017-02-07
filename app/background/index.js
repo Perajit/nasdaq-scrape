@@ -5,7 +5,7 @@ var background = function(config) {
   var job = new CronJob({
     cronTime: '0 * * * * *',
     onTick: function() {
-      controller.scrape(config.SCRAPE_TARGET);
+      controller.scrape(config.target);
     },
     start: false,
     timeZone: 'America/Los_Angeles'

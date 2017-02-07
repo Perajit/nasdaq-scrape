@@ -1,0 +1,5 @@
+{
+  "target": "http://www.nasdaq.com/",
+  "mongodb": "mongodb://localhost:27017/web_scrape",
+  "port": "5555"
+}
